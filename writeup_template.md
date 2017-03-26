@@ -50,10 +50,16 @@ Following are the basic statistics of the data provided for the project:
 
 The code for this step is contained in the 4th to 5th code cell of the IPython notebook.  
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. Following is the histogram of the training, validation and test data provided.
 
 
 ![alt text][image1]
+
+
+From the historgram, it is evident that the data is not uniformly distributed across the classes. This could lead the network to get trained or overfit towards the classes that has much higher representation. We should be able to address this in the data augmentation side.
+
+However, on the flip side, it also appears that the training, validation and test data are all having a similar distribution. So, for this set, we should not have to worry too much in this particular project. In an ideal world, we would still want to ensure a near equal distribution of data.
+
 
 ###Design and Test a Model Architecture
 
