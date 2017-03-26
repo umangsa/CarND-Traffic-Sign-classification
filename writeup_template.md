@@ -1,10 +1,6 @@
 #**Traffic Sign Recognition** 
 
-##Writeup Template
 
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
 
 **Build a Traffic Sign Recognition Project**
 
@@ -42,21 +38,20 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 
 ####1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-The code for this step is contained in the second code cell of the IPython notebook.  
+The code for this step is contained in the 3rd code cell of the IPython notebook.  
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
-
-* The size of training set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+Following are the basic statistics of the data provided for the project:
+- Number of training examples = 34799
+- Number of testing examples = 12630
+- Image data shape = (32, 32, 3)
+- Number of classes = 43
 
 ####2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
-The code for this step is contained in the third code cell of the IPython notebook.  
+The code for this step is contained in the 4th to 5th code cell of the IPython notebook.  
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+
 
 ![alt text][image1]
 
