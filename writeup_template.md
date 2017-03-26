@@ -65,11 +65,11 @@ However, on the flip side, it also appears that the training, validation and tes
 
 ####1. Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
 
-The code for this step is contained in the fourth code cell of the IPython notebook.
+The code for Pre processing is in cells 7 to 15. 
 
-As a first step, I decided to convert the images to grayscale because ...
+I found that there were many images that had very poor contrast as well as were very dark. I decided to improve the contrast using histogram equilization. I converted the images to grayscale and did the histogram equalization on the grayscale images. However, I found that this turned out to be extreme as I started losing information from several images as useful portions of the images started appearing burnt out. So I used Clahe transform to get better control of contrast improvement. 
 
-Here is an example of a traffic sign image before and after grayscaling.
+After equalization, I converted the images back to RGB. So now I ended up having grayscale images in RGB. 
 
 ![alt text][image2]
 
