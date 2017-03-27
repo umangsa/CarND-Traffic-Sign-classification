@@ -1,4 +1,4 @@
-#**Traffic Sign Recognition** 
+#**Traffic Sign Recognition** #
 
 
 
@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 [image8]: ./German_signs/keep_left.jpg "Keep Left"
 [image9]: ./examples/before_preprocessing.png "Signs before and pre processing was done"
 [image10]: ./examples/after_processing.png "Signs after improving contrast"
-[image11]: ./examples/final_class_distribution "Image distribution after augmenting the training set"
+[image11]: ./examples/final_class_distribution.png "Image distribution after augmenting the training set"
 [image12]: ./German_signs/keep_right.jpg "Keep Right"
 [image13]: ./German_signs/no_entry.jpg "No Entry"
 [image14]: ./German_signs/priority_road.jpg "Priority Road"
@@ -42,17 +42,7 @@ The goals / steps of this project are the following:
 
 
 
-## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
----
-###Writeup / README
-
-####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
-
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
-
-###Data Set Summary & Exploration
+###Data Set Summary & Exploration###
 
 ####1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
