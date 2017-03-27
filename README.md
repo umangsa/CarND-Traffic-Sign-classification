@@ -44,7 +44,7 @@ The goals / steps of this project are the following:
 
 ***Data Set Summary & Exploration***
 
-***1.*** Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
+***1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
 The code for this step is contained in the 3rd code cell of the IPython notebook.  
 
@@ -54,7 +54,7 @@ Following are the basic statistics of the data provided for the project:
 - Image data shape = (32, 32, 3)
 - Number of classes = 43
 
-***2.*** Include an exploratory visualization of the dataset and identify where the code is in your code file.
+***2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
 The code for this step is contained in the 4th to 5th code cell of the IPython notebook.  
 
@@ -71,7 +71,7 @@ However, on the flip side, it also appears that the training, validation and tes
 
 ***Design and Test a Model Architecture
 
-***1.*** Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
+***1. Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
 
 The code for Pre processing is in cells 7 to 15. 
 
@@ -87,7 +87,7 @@ Here are the images after contrast improvement and converting back to RGB
 
 As a last step, I normalized the image data to -1 to + 1. This help to make training faster and avoid getting stuck in a local minima.
 
-***2.*** Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
+***2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
 
 I did not split my data into training, validation and test data as the project already had provided this split in the data set. 
 
@@ -108,7 +108,7 @@ Here is my final class distribution:
 
 ![alt text][image11]
 
-***3.*** Describe, and identify where in your code, what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
+***3. Describe, and identify where in your code, what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 The code for my final model is located in the 16th cell of the ipython notebook. I took the LeNet architecture and made changes to the architecture.
 
@@ -141,7 +141,7 @@ My final model consisted of the following layers:
  
 
 
-***4.*** Describe how, and identify where in your code, you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
+***4. Describe how, and identify where in your code, you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 The code for training the model is located in the 21st cell of the ipython notebook. 
 
@@ -189,7 +189,7 @@ Weights initialization. I was initializing the weights with a very lowe std dev 
 
 ***Test a Model on New Images
 
-***1.*** Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+***1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
 
@@ -204,7 +204,7 @@ Next 2 images were for bicycle crossing. In 1 of the variants, it saw the arrows
 
 The remaining images were easy to classify as the main features in these images were very clear and hence the network classified them correctly with high confidence.
 
-***2***. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+***2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 The code for making predictions on my final model is located in the 24th cell of the Ipython notebook.
 
